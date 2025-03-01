@@ -1,0 +1,86 @@
+body {
+    background-image: url("img/wallpaper.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode:lighten;
+    margin: 50px;
+}
+
+h1{
+    cursor:default;
+    transition: color 0.8s
+}
+
+
+.pfp-container{
+    display:flex;
+    justify-content: center;
+}
+
+.pfp {
+    width:250px;
+    height:auto;
+    border: 2px solid rgb(0, 106, 255);
+    border-radius:150px;
+    transition: width 0.7s;
+}
+
+.pfp:hover{
+    width: 300px;
+}
+
+
+.container {
+    background-color: rgba(59, 92, 226, 0.342);
+    font-size: 1.5em;
+    font-family: "Yatra One", Verdana;
+    color: white;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.container:hover h1{
+    color: rgb(243, 137, 137);
+}
+
+
+#tech-stack ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#tech-stack ul li{
+    margin: 5px 20px;
+    cursor: default;
+    transition: transform 0.3s;
+}
+
+#tech-stack ul li:hover{
+    transform: scale(1.1);
+}
+
+.tech-icon{
+    width: 40px;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    margin-bottom: 10px;
+}
+
+.socials a{
+    color: white;
+    transition: transform 0.3s;
+}
+.socials a:hover{
+    transform: scale(1.2);
+}
